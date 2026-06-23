@@ -1,11 +1,13 @@
 # 📊 DataXLabs Task 6 - Sales Trend Analysis Using Aggregations
 
 ## 📌 Objective
-Analyze monthly revenue and order volume using SQL aggregation functions and identify sales trends over time.
+
+Analyze monthly revenue and order volume using SQL aggregation functions to identify sales trends over time.
 
 ---
 
 ## 🛠️ Tools Used
+
 - PostgreSQL
 - SQL
 - pgAdmin 4
@@ -13,9 +15,11 @@ Analyze monthly revenue and order volume using SQL aggregation functions and ide
 ---
 
 ## 📂 Dataset
-Online Sales Data Dataset
+
+**Online Sales Data Dataset**
 
 ### Columns Used
+
 - Transaction ID
 - Order Date
 - Product Category
@@ -25,16 +29,6 @@ Online Sales Data Dataset
 - Total Revenue
 - Region
 - Payment Method
-
----
-
-## 📈 SQL Concepts Applied
-- SUM()
-- COUNT()
-- EXTRACT()
-- GROUP BY
-- ORDER BY
-- Aggregate Functions
 
 ---
 
@@ -56,20 +50,21 @@ CREATE TABLE online_sales (
 
 ### Screenshot
 
-![Table Creation](Screenshots/01_Table_Creation.png)
+![Table Creation](Table_Creation.png)
 
 ---
 
 ## 🔍 Data Preview
 
 ```sql
-SELECT * FROM online_sales
+SELECT *
+FROM online_sales
 LIMIT 10;
 ```
 
 ### Screenshot
 
-![Data Preview](Screenshots/02_Data_Preview.png)
+![Data Preview](Data_Preview.png)
 
 ---
 
@@ -90,11 +85,11 @@ ORDER BY year, month;
 
 ### Screenshot
 
-![Sales Trend Query](Screenshots/03_Monthly_Sales_Query.png)
+![Monthly Sales Query](Monthly_Sales_Query.png)
 
 ---
 
-## 📉 Query Output
+## 📈 Query Output
 
 The query calculates:
 
@@ -104,46 +99,64 @@ The query calculates:
 
 ### Screenshot
 
-![Query Output](Screenshots/04_Query_Output.png)
+![Query Output](Query_Output.png)
 
 ---
 
-## 🎯 Outcome
+## 📚 SQL Concepts Used
 
-Successfully analyzed monthly sales trends using SQL aggregation techniques.
-
-Key Insights:
-- Calculated monthly revenue using SUM()
-- Calculated order volume using COUNT()
-- Grouped data by year and month
-- Identified sales performance trends over time
+- Aggregate Functions
+- SUM()
+- COUNT()
+- EXTRACT()
+- GROUP BY
+- ORDER BY
+- Data Analysis
 
 ---
 
-## 📁 Project Structure
+## 🎯 Key Insights
+
+- Calculated monthly revenue using SQL aggregation.
+- Measured order volume for each month.
+- Grouped sales data by year and month.
+- Identified monthly sales trends.
+- Generated meaningful business insights from transactional data.
+
+---
+
+## 📁 Repository Contents
 
 ```text
 DataXLabs_Task6_Sales_Trend_Analysis
 │
-├── Dataset
-│   └── Online Sales Data.csv
-│
-├── SQL
-│   └── task6_sales_trend_analysis.sql
-│
-├── Screenshots
-│   ├── 01_Table_Creation.png
-│   ├── 02_Data_Preview.png
-│   ├── 03_Monthly_Sales_Query.png
-│   └── 04_Query_Output.png
-│
+├── Online Sales Data.csv
+├── task6_sales_trend_analysis.sql
+├── Table_Creation.png
+├── Data_Preview.png
+├── Monthly_Sales_Query.png
+├── Query_Output.png
 └── README.md
 ```
 
 ---
 
-## 🚀 Author
+## ✅ Outcome
+
+Successfully completed **Task 6 – Sales Trend Analysis Using Aggregations** as part of the **DataXLabs Data Analyst Internship**.
+
+The project demonstrates how SQL aggregation functions can be used to analyze monthly sales performance, calculate revenue, measure order volume, and identify trends in business data.
+
+---
+
+## 👩‍💻 Author
 
 **Kapa Sri Lakshmi**  
-B.Tech CSE | Data Analytics Enthusiast  
-Mohan Babu University
+B.Tech – Computer Science and Engineering  
+Mohan Babu University  
+Aspiring Data Analyst
+
+### Connect With Me
+
+- GitHub: https://github.com/kapasrilakshmi075
+- LinkedIn: Add your LinkedIn profile link here
